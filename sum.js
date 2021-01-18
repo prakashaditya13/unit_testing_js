@@ -5,4 +5,12 @@ function sum(a,b){
 function helper(){
     console.log("Helper")
 }
-module.exports = sum
+
+function createUser(){
+    var user = {
+        firstName: "aditya",
+        lastName: "Prakash"
+    }
+    return user
+}
+module.exports = {sum,createUser}
